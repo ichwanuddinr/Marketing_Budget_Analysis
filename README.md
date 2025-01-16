@@ -1,9 +1,39 @@
-## Marketing Budget Analytics
+# Data-Driven Marketing: How to Allocate Your Budget Wisely
 
-Repository ini berisi analisis data yang dilakukan untuk membantu perusahaan dalam mengoptimalkan anggaran biaya pemasaran mereka. Dalam analisis ini, Saya melakukan pengumpulan data terkait produk, penjualan, dan pemasaran untuk mencari tahu sumber pemasaran yang paling optimal. Saya menggunakan berbagai metrik seperti jumlah pengguna produk, jumlah pesanan, besaran rata-rata pembelian, dan biaya akuisisi pelanggan dari masing-masing sumber untuk menentukan Return on Marketing Investment (ROMI). 
+## Overview
 
-Hasil analisis saya diharapkan dapat membantu perusahaan dalam memutuskan sumber pemasaran mana yang perlu ditingkatkan, dan sebaliknya, sumber mana yang perlu dikurangi anggaran pemasarannya. Semua analisis dilakukan menggunakan bahasa pemrograman Phyton dan disimpan dalam berkas Jupyter Notebook yang terlampir di dalam repository ini.
+This project demonstrates how data analysis can guide smarter marketing budget allocation to maximize profitability and customer retention. It uses real-world data to evaluate product usage patterns, customer lifetime value (LTV), and the return on marketing investment (ROMI). Key objectives include identifying the most effective marketing channels and understanding user behavior to optimize business strategies.
 
-## Libraries yang digunakan:
+## Key Features
 
-pandas, numpy, seaborn, dan matplotlib.
+- **Product Analysis**:
+  - Daily, weekly, and monthly user engagement metrics.
+  - Session counts and average session duration.
+  - User retention rates over time.
+
+- **Sales Analysis**:
+  - Purchase patterns and trends.
+  - Order frequency and average order value (AOV).
+  - Customer lifetime value (LTV) evaluation across cohorts.
+
+- **Marketing Analysis**:
+  - Marketing spend breakdown by channel and period.
+  - Customer acquisition costs (CAC) comparison across sources.
+  - Return on Marketing Investment (ROMI) cohort analysis.
+
+## Programming Languages and Libraries Used
+
+- **Programming Languages**: Python
+- **Libraries**:
+  - Data Manipulation: `pandas`, `numpy`
+  - Visualization: `matplotlib`, `seaborn`
+
+## Usage
+
+This repository includes a Jupyter Notebook that walks through the data cleaning, analysis, and visualization process. The final insights are compiled into actionable recommendations for improving marketing strategies and customer retention.
+
+## Key Takeaways
+
+- Learn how to analyze cohort-based metrics like LTV and ROMI.
+- Identify actionable insights to optimize marketing budgets.
+- Understand the importance of retention and customer acquisition metrics in decision-making.
